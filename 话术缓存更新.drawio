@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-01-13T07:31:23.490Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="1tuIFphu44H0uEetI57H" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-13T07:54:49.935Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="t2fQJI8mc-q_hDsfrbZR" version="22.1.18" type="github">
   <diagram name="第 1 页" id="-x6CJprxXXUpig5tsV2Q">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-2" target="w0-znPWzVKbB5pnzeYsu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-2" value="上传录音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-3" target="w0-znPWzVKbB5pnzeYsu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-3" value="修改状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-7" target="w0-znPWzVKbB5pnzeYsu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-9" value="删除缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-12" target="w0-znPWzVKbB5pnzeYsu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-12" value="获取缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-14" target="w0-znPWzVKbB5pnzeYsu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-14" value="无缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-16" target="w0-znPWzVKbB5pnzeYsu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-17" target="w0-znPWzVKbB5pnzeYsu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-17" value="重新查询数据库构建数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-19" target="w0-znPWzVKbB5pnzeYsu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-19" value="上传录音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-21" target="w0-znPWzVKbB5pnzeYsu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-21" value="修改状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="w0-znPWzVKbB5pnzeYsu-23" target="w0-znPWzVKbB5pnzeYsu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-24" value="删除缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0-znPWzVKbB5pnzeYsu-29" value="更新缓存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
