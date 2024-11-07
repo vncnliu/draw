@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="xOYMUhIg6HLlBUnUOl8p">
-    <mxGraphModel>
+    <mxGraphModel dx="1877" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-1" target="PY1TuZsMIeNsYhbk2ojO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-1" value="发起ws连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-2" target="PY1TuZsMIeNsYhbk2ojO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-6" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PY1TuZsMIeNsYhbk2ojO-5">
+          <mxGeometry x="-0.255" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-2" target="PY1TuZsMIeNsYhbk2ojO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-9" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PY1TuZsMIeNsYhbk2ojO-8">
+          <mxGeometry x="0.045" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-2" value="发送token绑定请求" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-4" value="维护用户与session关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-7" value="提示失败" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-10" target="PY1TuZsMIeNsYhbk2ojO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-10" value="链接断开" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-11" value="移除用户session绑定关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-16" target="PY1TuZsMIeNsYhbk2ojO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-16" value="发送心跳消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-17" target="PY1TuZsMIeNsYhbk2ojO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-17" value="维护心跳时间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-19" value="心跳过期，修改用户在线状态，移除redis消息绑定" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PY1TuZsMIeNsYhbk2ojO-21" target="PY1TuZsMIeNsYhbk2ojO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-21" value="推送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-22" value="使用redis pub/sub&lt;div&gt;采用广播的方式，服务器根据收到的消息自行处理单个发送还是批量发送&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-24" value="多标签页的已读未读数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PY1TuZsMIeNsYhbk2ojO-25" value="消息处理慢导致推送不及时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
