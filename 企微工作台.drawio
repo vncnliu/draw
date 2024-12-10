@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="z5f0RuQZjBFEx7dPKx2P">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-2" target="ofsQs8NmeBYgYVRdr-4x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-2" value="提交加粉任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-3" target="ofsQs8NmeBYgYVRdr-4x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-3" value="写入数据库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-5" value="生产者线程池提交任务到加粉任务队列" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-7" target="ofsQs8NmeBYgYVRdr-4x-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-7" value="加粉任务消费线程池&lt;div&gt;系统启动时启动&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-8" target="ofsQs8NmeBYgYVRdr-4x-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-8" value="从任务队列获取任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-10" target="ofsQs8NmeBYgYVRdr-4x-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-10" value="提交消费者线程执行任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-12" target="ofsQs8NmeBYgYVRdr-4x-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-12" value="对任务所属客户经理加分布式锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-14" target="ofsQs8NmeBYgYVRdr-4x-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-14" value="对任务加分布式锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ofsQs8NmeBYgYVRdr-4x-16" target="ofsQs8NmeBYgYVRdr-4x-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-16" value="判断任务状态重试次数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ofsQs8NmeBYgYVRdr-4x-18" value="获取可用客户经理&lt;div&gt;有规则：&lt;/div&gt;&lt;div&gt;1 上一个任务完成后n秒才能开始新任务&lt;/div&gt;&lt;div&gt;2 如果任务没完成，超过最大时间也可以&lt;/div&gt;&lt;div&gt;3 连续n个任务未通过，也不发&lt;/div&gt;&lt;div&gt;4 每天有最大任务数量限制&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
